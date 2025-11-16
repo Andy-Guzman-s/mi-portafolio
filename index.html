@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la pestaña -->
+    <title>Portafolio Personal</title>
+    <!-- Descripción del sitio (para SEO) -->
+    <meta name="descripcion" content="Mi Portafolio Web Personal">
+</head>
+<!-- Encabezado principal del sitio -->
+<header>
+    <h1>Andy Daniel Guzman Saltos</h1>
+    <p>Aprendiendo hoy para liderar mañana.</p>
+</header>
+<hr> <!-- Línea divisoria -->
+<body>
+    <!-- Imagen de avatar -->
+    <img src="img/Avatar - Andy Guman.png" alt="Avatar referencial"> <br><br>
+    <!-- Navegación interna mediante anclas -->
+    <a href="#sobremi"> Sobre mi</a> <br>
+    <a href="#intereses"> Intereses</a> <br>
+    <a href="#habilidades"> Habilidades</a> <br>
+    <a href="#contactos"> Contactos</a> <br>
+    <br>
+    <!-- Sección SOBRE MI -->
+    <h3 id="sobremi"><strong>SOBRE MI</strong></h3>
+    <p>
+        Soy estudiante de tercer semestre de <strong><mark>Ingeniería en Sistemas</mark></strong>
+        y me apasiona el aprendizaje continuo dentro del mundo de la tecnología.<br>
+        Me considero una persona responsable, creativa y con disposición para afrontar nuevos retos.<br>
+        Actualmente estoy fortaleciendo mis conocimientos en 
+        <strong><mark>programación</mark></strong> y 
+        <strong><mark>desarrollo de soluciones digitales</mark></strong>, mientras construyo las bases de mi futuro profesional.<br>
+        Mi objetivo es crecer paso a paso, aplicar lo que aprendo en pequeños proyectos
+        y compartir mi progreso a través de este <strong><mark>portafolio</mark></strong>.
+    </p>
+    <br>
+    <!-- Sección INTERESES -->
+    <div>
+        <h3 id="intereses"><strong>INTERESES</strong></h3>
+        <!-- Lista de intereses -->
+        <ul>
+            <li>Desarrollo de sitios web.</li>
+            <li>Programación de Software.</li>
+            <li>Cyberseguridad y protección de sistemas.</li>
+            <li>Aprender nuevas tecnologías y buenas prácticas de programación.</li>
+        </ul>
+    </div>
+    <br>
+    <!-- Sección HABILIDADES -->
+    <div>
+        <h3 id="habilidades"><strong>HABILIDADES</strong></h3>
+        <!-- Tabla que muestra habilidades -->
+        <table border="5">
+            <thead>
+                <tr><th>Habilidad</th><th>Nivel</th></tr>
+            </thead>
+            <tbody>
+                <tr><th>Programación en Java</th><th>Básico</th></tr>
+                <tr><th>Desarrollo web (HTML, CSS)</th><th>Básico</th></tr>
+                <tr><th>Lógica de programación</th><th>Intermedio</th></tr>
+                <tr><th>Trabajo en equipo</th><th>Avanzado</th></tr>
+                <tr><th>Creatividad</th><th>Intermedio</th></tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <!-- Sección AUTOPRESENTACIÓN -->
+    <div>
+        <h3><strong>AUTOPRESENTACIÓN</strong></h3>
+        <!-- Reproductor de audio -->
+        <audio controls>
+            <source src="audio/Autopresentación.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <br>
+    <!-- Sección CONTACTOS -->
+    <div>
+        <h3 id="contactos"><strong>CONTACTOS</strong></h3>
+        <!-- Formulario de registro -->
+        <form>
+            <fieldset>
+                <!-- Título del formulario -->
+                <legend><strong>Registro</strong></legend>
+                <!-- Campo nombre -->
+                <label for="nombre"><strong>Nombre:</strong></label> <br>
+                <input type="text" name="nombre" id="nombre" required><br>
+                <!-- Campo email -->
+                <label for="email"><strong>Correo:</strong></label> <br>
+                <input type="email" id="email" name="email" required><br>
+                <!-- Campo edad -->
+                <label for="edad"><strong>Edad:</strong></label> <br>
+                <input type="number" name="edad" id="edad" required><br>
+                <!-- Selección de género -->
+                <label><strong>Género:</strong></label>
+                <input type="radio" name="genero" value="M"> Masculino
+                <input type="radio" name="genero" value="F"> Femenino <br>
+                <!-- Intereses del usuario -->
+                <label><strong>Intereses:</strong></label>
+                <input type="checkbox" name="deporte"> Deporte
+                <input type="checkbox" name="lectura"> Lectura
+                <input type="checkbox" name="programacion"> Programación <br>
+                <!-- Comentarios adicionales -->
+                <textarea name="comentarios" rows="4" cols="40"></textarea><br>
+                <!-- Botón enviar -->
+                <input type="submit" value="Registrar">
+            </fieldset>
+        </form>
+    </div>
+    <br>
+    <!-- Pie de página con derechos y enlaces -->
+    <footer>
+        <p id="redes">&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+        <a href="https://www.facebook.com/andydaniel.guzmansaltos" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/andy_xsh?igsh=eWdqMXhsYzdpYWpk" target="_blank">Instagram</a> |
+    </footer>
+</body>
+</html>
